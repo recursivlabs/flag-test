@@ -1,0 +1,18 @@
+{
+ "@context": [
+  "https://www.w3.org/ns/activitystreams",
+  "https://w3id.org/security/v1"
+ ],
+ "id": "https://recursivlabs.github.io/flag-test/actor.json",
+ "type": "Application",
+ "preferredUsername": "flagtest",
+ "name": "Minds moderation test (temporary)",
+ "summary": "A temporary test actor that Minds staff use to check how a report from another server is handled. It sends nothing else and will be deleted.",
+ "inbox": "https://recursivlabs.github.io/flag-test/inbox.json",
+ "outbox": "https://recursivlabs.github.io/flag-test/outbox.json",
+ "publicKey": {
+  "id": "https://recursivlabs.github.io/flag-test/actor.json#main-key",
+  "owner": "https://recursivlabs.github.io/flag-test/actor.json",
+  "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmFyfhE1XsDnTEx6TMHzq\nU4Tr1Pz7LC3X5HjfjCttZC5CxhLeomqdopHGaqE3ZoLffGZsnsj09MpjJP4Zo6xl\nBvh0YbyX3z/e8vNar1g373vGmy39VQx7juytrH/ka77XhvmkiBBwciq6Ty/LcWx4\nS39H7m3R0xCgwrIadIPbJktW+RjQTbsUglCE9Lslng9Ht0lMRvSNGd+p/ZQrW8TN\naiGAcLpjvCqsr49wOPdGmCGtH2/HFL3nmwjiLeOuvfWkd0ziodujeoUH/Uvtb/Hd\nRSedNoVYjE2ImY4kmtEd1StDir85CVo1JguxD2bp+SEcmM6IvubaOjUZuUaUl03F\n9wIDAQAB\n-----END PUBLIC KEY-----\n"
+ }
+}
